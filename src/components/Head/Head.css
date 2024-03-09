@@ -1,0 +1,41 @@
+.title {
+    background-color: bisque;
+    color: rgb(69, 58, 80);
+    height: 85px;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageButton {
+    display: flex;
+    margin: 5px;
+}
+
+.backPageButton {
+    background-color: red;
+    width: 25%;
+    height: 70px;
+}
+
+.pageName {
+    background-color: yellow;
+    width: 50%;
+    height: 70px;
+}
+
+.nextPageButton {
+    background-color: blue;
+    width: 25%;
+    height: 70px;
+}
+
+.backPageButton:hover {
+    transform: translateY(5px);
+}
+.nextPageButton:hover {
+    transform: translateY(5px);
+}
+
