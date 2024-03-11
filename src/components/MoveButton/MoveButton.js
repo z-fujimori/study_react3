@@ -8,14 +8,14 @@ const MoveButton = () => {
     const audio = new Audio(sound);
     audio.volume = 0.3;
     let top = "100px";
-    let left = "10%";
+    let left = "0%";
 
     const move = () => {
         audio.play().then(() => {
             console.log("Audio started!")
         })
-        left = Math.floor(Math.random()*95) + "%"
-        top = Math.floor(Math.random()*700) + "px"
+        left = Math.floor(Math.random()*120)-60 + "%"
+        top = Math.floor(Math.random()*750) + "px"
         document.documentElement.style.setProperty('--top', top)
         document.documentElement.style.setProperty('--left', left)
         setCount(count + 1)

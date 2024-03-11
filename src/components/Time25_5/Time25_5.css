@@ -1,0 +1,24 @@
+.timerApp{
+    place-items: center;
+}
+
+.timerTitle {
+    background-color: bisque;
+    color: rgb(69, 58, 80);
+    height: 65px;
+    width: 290px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.timer {
+    font-weight: 600;
+    font-size: 40px;
+}
